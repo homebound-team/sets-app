@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "format": "prettier --write 'src/**/*.{ts,js,tsx,jsx}'",
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@homebound/tsconfig": "^1.0.3",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/mocha": "^9.1.1",
+    "assert": "^2.0.0",
+    "mocha": "^10.0.0"
+  }
+}
